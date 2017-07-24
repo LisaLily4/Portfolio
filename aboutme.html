@@ -44,12 +44,14 @@
     
      
      
-     
-     
-    <p> <img src= "pup.jpg" alt="Mountain View" style="width:304px;height:228px;">
+      <p> <img src= "pup.jpg" alt="Mountain View" style="width:304px;height:228px;">
      <img src= "recolored.jpg" alt="Mountain View" style="width:304px;height:228px;"> <p/>
      
-<button type="button" onclick='document.getElementById("demo").innerHTML = "If you don't wanna read this click the button!"'>Click Me!</button>     
-<button type="button" onclick='document.getElementById("demo").innerHTML = "Hello JavaScript!"'>Click Me!</button>     
-       </body>
+<p id="demo" style="display:none">Hello JavaScript!</p>
+
+<button type="button" onclick="document.getElementById('demo').style.display='block'">Click Me!</button>
+  
+  
+  
+  </body>
 </html>
